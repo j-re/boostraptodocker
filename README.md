@@ -23,6 +23,17 @@ http://woshub.com/how-to-create-self-signed-certificate-with-powershell/
 need to stop IIS to bind to port 80.
 rebind ssl port?
 
+# Docker links
+https://www.youtube.com/watch?v=bU2NNFJ-UXA
+
+
+https://www.youtube.com/watch?v=N7SG2wEyQtM
+
+https://www.windowscentral.com/how-run-linux-distros-windows-10-using-hyper-v
+
+https://redmondmag.com/articles/2014/07/24/private-vs-internal-virtual-switches.aspx
+
+https://medium.com/faun/kubernetes-vs-docker-swarm-whos-the-bigger-and-better-53bbe76b9d11
 
 
 # [Start Bootstrap - Agency](https://startbootstrap.com/template-overviews/agency/)
