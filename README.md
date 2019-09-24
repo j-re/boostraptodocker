@@ -1,13 +1,28 @@
 https://software.intel.com/en-us/intel-system-studio-docker-install-windows-troubleshoot-docker-for-windows
+
 https://docs.docker.com/engine/reference/builder/#dockerignore-file
+
 https://www.dailysmarty.com/posts/steps-for-deploying-a-static-html-site-with-docker-and-nginx
+
 https://medium.com/@jgefroh/a-guide-to-using-nginx-for-static-websites-d96a9d034940
+
 https://vuejs.org/v2/cookbook/dockerize-vuejs-app.html
+
 https://www.techrepublic.com/article/how-to-run-nginx-as-a-docker-container/
+
 https://github.com/nginxinc/NGINX-Demos/blob/master/nginx-hello/hello-plain-text.conf
 
 
-docker run --name docker-nginx -p 8080:80 webserver-image:v1
+docker save webserver-image:v1 -o test.tar
+
+.\run.bat
+
+
+http://woshub.com/how-to-create-self-signed-certificate-with-powershell/
+
+need to stop IIS to bind to port 80.
+rebind ssl port?
+
 
 
 # [Start Bootstrap - Agency](https://startbootstrap.com/template-overviews/agency/)

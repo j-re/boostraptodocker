@@ -9,5 +9,7 @@
 # production stage
 FROM nginx:stable-alpine as production-stage
 COPY . /usr/share/nginx/html
-EXPOSE 80
+COPY /cert/nginx.crt /etc/nginx/ssl/nginx.crt
+COPY /cert/nginx.key /etc/nginx/ssl/nginx.key
+EXPOSE 80 443
 CMD ["nginx", "-c", "/usr/share/nginx/html/nginx.conf"]
